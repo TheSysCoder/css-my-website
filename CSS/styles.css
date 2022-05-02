@@ -3,3 +3,27 @@
   padding: 0%;
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #00bfa6;
+  --secondary-color: #02d7ba;
+  --tertery-color: #c5fff7;
+}
+
+.top-container {
+  background-color: var(--tertery-color);
+}
+.cloud1 {
+  width: 150px;
+  position: relative;
+  left: 20%;
+}
+.cloud2 {
+  width: 200px;
+  position: relative;
+  top: 200px;
+}
+.banner {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+}
